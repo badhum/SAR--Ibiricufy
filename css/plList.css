@@ -1,0 +1,108 @@
+.wrapper {       
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 1em;
+    border: black solid 1px;
+    padding: 0.8em;
+}
+
+#plListContainer {
+    display: grid;
+    grid-template-rows: 15fr 2fr;
+    grid-gap: 1em;
+}
+
+#plList {
+    border: black solid 1px;
+    padding: 1em;
+    overflow: scroll;
+}
+
+.plButton {
+    border: black solid 1px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#createPopUp {
+    padding: 1em;
+    border: black solid 1px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#sngListContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0.4em;
+    border: black solid 1px;
+}
+
+#controlerContainer {
+    display: grid;
+    grid-column: 1/6;
+    grid-template-columns: 1fr 4fr;
+    border-bottom: black solid 1px;
+    padding: 0;
+}
+
+#controler {
+    display: grid;
+    grid-template-rows: 12fr 0.3fr 5fr;
+    padding: 0;
+}
+
+#sngInfo {
+    text-align: center;
+    border-left: black solid 1px;
+}
+
+#sngInfo > h3 {
+    margin-top: 1em;
+}
+
+#timeTraveler {
+    border-left: black solid 1px;
+    background-color: green;
+    width: 0%;
+}
+
+#controlButtons {
+    display: flex;
+    border: none;
+    padding: 0;
+    border-top: black solid 1px;
+}
+
+.controlButton {
+    flex: 30%;
+    padding: 0.5em;
+    padding-top: 1.1em;
+    text-align: center;
+    border-left: black solid 1px;
+}
+
+.control-content {
+    display: inline-block;
+}
+
+#sngInfo {
+    text-align: center;
+    border-left: black solid 1px;
+}
+
+#sngList {
+    grid-column: 2/6;
+    height: 390px;
+    overflow: scroll;
+    padding: 1em;
+    border: black solid 1px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.sngButton {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: black solid 1px;
+}

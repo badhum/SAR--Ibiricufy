@@ -1,0 +1,10 @@
+<!ELEMENT audios (audio)*>
+<!ATTLIST audios ult_id IDREF #REQUIRED>
+<!ELEMENT audio (fecha, nombre, comentario,extension)>
+<!ATTLIST audio id ID #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+

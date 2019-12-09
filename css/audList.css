@@ -1,0 +1,86 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5em;
+    grid-row-gap: 3em;
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+    border: black solid 1px;
+}
+
+.sngCard {
+    display: grid;
+    grid-template-rows: 7fr 2fr;
+    text-align: center;
+    padding: 1em;
+    border: black solid 1px;
+}
+
+.sngInfo > h3 {
+    margin-top: 1.3em;
+}
+
+.controler {
+    display: grid;
+    grid-template-rows: 1fr 15fr;
+}
+
+.timeTravelerContainer {
+    background-color: rgb(200, 200, 200);
+}
+
+.timeTraveler {
+    width: 0%;
+    height: 4px;
+    background-color: green;
+}
+
+.playButtonContainer {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.playButton {
+    grid-column: 2/3;
+    margin: auto;
+    width: 2.6em;
+    height: 2.6em;
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.playButton-content {
+    float: left;
+    line-height: 1;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.addSng {
+    grid-column: 3/4;
+    margin: auto;
+    width: 2.6em;
+    height: 2.6em;
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.addSng-content {
+    float: left;
+    line-height: 1;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+#filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 25%;
+}

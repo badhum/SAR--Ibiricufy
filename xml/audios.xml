@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<!DOCTYPE visitas SYSTEM "audios.dtd">
+<audios ultid="5">
+    
+    <audio id="0" genero="Pop">
+        <fecha>2012/3/14 19:04</fecha>
+        <autor>George Lucas</autor>
+        <titulo>Space Cantina</titulo>
+        <comentario>La cantina</comentario>
+        <extension>.mp3</extension>
+        <image>cantina.jpg</image>
+    </audio>
+</audios>

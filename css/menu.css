@@ -1,0 +1,11 @@
+.op{
+    margin: 1em;
+}
+
+#menu{
+	background:rgba(193, 230, 240, 0.74);
+}
+
+#btn-abrir-popup-options{
+    margin-left: 10px;
+}

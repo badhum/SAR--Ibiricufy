@@ -1,0 +1,10 @@
+<!DOCTYPE user
+[
+<!ELEMENT user (userInfo, playlists)>
+<!ELEMENT userInfo (name)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT playlists (playlist)*>
+<!ATTLIST playlist name #PCDATA >
+<!ELEMENT playlist (songID)*>
+<!ELEMENT songID (#PCDATA)>
+]>
