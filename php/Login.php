@@ -96,7 +96,7 @@
                     echo "<script language=Javascript> location.href=\"Layout.php\"; </script>";
 
                 }else{
-                    echo "<script>alert('Parametros de login incorrectos');</scrip>";
+                    echo "<script>alert('Parametros de login incorrectos');</script>";
                 }
             }
         }
